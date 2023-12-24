@@ -1,6 +1,6 @@
 import json
 
-data = json.load(open("d12.txt"))
+data = json.load(open("input/d12.txt"))
 
 
 def recurse(d, ignore) -> int:

@@ -4,5 +4,5 @@ def paper(l, w, h):
 def ribbon(l, w, h):
     return l*w*h + min([2*l+2*w, 2*w + 2*h, 2*l+2*h])
 
-print(sum([paper(*[int(s) for s in p.strip().split("x")]) for p in open("d2.txt").readlines()]))
-print(sum([ribbon(*[int(s) for s in p.strip().split("x")]) for p in open("d2.txt").readlines()]))
+print(sum([paper(*[int(s) for s in p.strip().split("x")]) for p in open("input/d2.txt").readlines()]))
+print(sum([ribbon(*[int(s) for s in p.strip().split("x")]) for p in open("input/d2.txt").readlines()]))

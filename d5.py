@@ -1,7 +1,7 @@
 vowels = "aeiou"
 dissalowed = ["ab", "cd", "pq", "xy"]
 
-lines = [l.strip() for l in open("d5.txt").readlines()]
+lines = [l.strip() for l in open("input/d5.txt").readlines()]
 
 nice = 0
 nicer = 0

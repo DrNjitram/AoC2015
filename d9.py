@@ -3,7 +3,7 @@ import itertools
 locations = set()
 routes = {}
 
-for distance in open("d9.txt").readlines():
+for distance in open("input/d9.txt").readlines():
     cities, dist = distance.split(" = ")
     A, B = cities.split(" to ")
 

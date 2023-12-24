@@ -2,7 +2,7 @@ import itertools
 
 people = set()
 combo = {}
-for line in open("d13.txt").readlines():
+for line in open("input/d13.txt").readlines():
     A, val, B = line.replace(" happiness units by sitting next to ", ",").replace(" would ", ",").replace("lose ", "-").replace("gain ", "").strip()[:-1].split(",")
 
     people.add(A)

@@ -6,7 +6,7 @@ visits[(0, 0)] = 1
 visits2[(0, 0)] = 1
 s = [0, 0]
 s2 = [0, 0]
-moves = open("d3.txt").readline()
+moves = open("input/d3.txt").readline()
 
 robo = False
 for move in moves:

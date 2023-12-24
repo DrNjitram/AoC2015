@@ -1,6 +1,6 @@
 total = 0
 total2 = 0
-for line in open("d8.txt").readlines():
+for line in open("input/d8.txt").readlines():
     line = line.strip()
     sline = line[1:-1]
 

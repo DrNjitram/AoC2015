@@ -1,6 +1,6 @@
 wires = {}
 
-start_rules = open("d7.txt").readlines()
+start_rules = open("input/d7.txt").readlines()
 
 
 def apply_rules(rules):

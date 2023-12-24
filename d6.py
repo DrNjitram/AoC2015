@@ -3,7 +3,7 @@ from collections import defaultdict
 lights = defaultdict(bool)
 brightness = defaultdict(int)
 
-for line in open("d6.txt").readlines():
+for line in open("input/d6.txt").readlines():
 
     c, s, _, e = line.strip().replace("turn ", "").split(" ")
 
